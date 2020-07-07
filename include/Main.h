@@ -22,9 +22,9 @@ struct Item {
 
 const Item ITEMS[ITEMS_LENGHTS_ARRAY] {
     // FOODS
-    { "Potato", TypeItems::FoodItem, 20, -1, 5, Sprites::ITEMS::Unknown },
-    { "Chicken", TypeItems::FoodItem, 60, -10, 20, Sprites::ITEMS::Unknown },
-    { "Sweet", TypeItems::FoodItem, 5, 0, 5, Sprites::ITEMS::Unknown },
+    { "Potato", TypeItems::FoodItem, 20, -1, 5, Sprites::ITEMS::FOODS::F_Potato },
+    { "Cake", TypeItems::FoodItem, 60, -10, 5, Sprites::ITEMS::FOODS::F_Cake },
+    { "Sweet", TypeItems::FoodItem, 5, 0, 5, Sprites::ITEMS::FOODS::F_Sweet },
 
     // CLEANING
     { "Head&Shoul", TypeItems::CleaningItem, 0, 5, 5, Sprites::ITEMS::Unknown },

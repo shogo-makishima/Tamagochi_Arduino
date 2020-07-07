@@ -15,7 +15,7 @@ namespace Settings {
     const float DEFAULT_DOWN_DIRTY = 0.1;
 
     // Other
-    const unsigned int DEFAULT_TIMER_PAUSE = 10;
+    const unsigned int DEFAULT_TIMER_PAUSE = 100;
     const unsigned int DEFAULT_SCREEN_WIDTH = 84;
     const unsigned int DEFAULT_SCREEN_HEIGHT = 48;
 
@@ -29,7 +29,7 @@ namespace Settings {
         const unsigned int DEFAULT_SELECT_ITEM_X = 20, DEFAULT_SELECT_ITEM_Y = 36;
 
         // Sprites
-        const unsigned int DEFAULT_CHARACTER_X = 0, DEFAULT_CHARACTER_Y = 1;
+        const unsigned int DEFAULT_CHARACTER_X = 6, DEFAULT_CHARACTER_Y = 1;
         const unsigned int DEFAULT_ITEM_X = 0, DEFAULT_ITEM_Y = 32;
 
         // Sliders

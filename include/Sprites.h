@@ -20,9 +20,60 @@ namespace Sprites {
         };
 
         namespace FOODS {
-            static const unsigned char PROGMEM F_Potato[] = { };
-            static const unsigned char PROGMEM F_Chicken[] = { };
-            static const unsigned char PROGMEM F_Sweet[] = { };
+            static const unsigned char PROGMEM F_Potato[] = { 
+                0x05, 0x50, 
+                0x15, 0x50, 
+                0x12, 0xe0, 
+                0x0a, 0x70, 
+                0x0a, 0xe8, 
+                0x17, 0x50, 
+                0x0f, 0xe0, 
+                0x0f, 0xf0, 
+                0x0c, 0x30, 
+                0x0b, 0xd0, 
+                0x0c, 0x30, 
+                0x0b, 0xd0, 
+                0x0c, 0x30, 
+                0x0b, 0xd0, 
+                0x04, 0x20, 
+                0x03, 0xc0, 
+            };
+            static const unsigned char PROGMEM F_Cake[] = {
+                0x00, 0x00, 
+                0x7f, 0xfe, 
+                0xc0, 0x03, 
+                0xa9, 0x35, 
+                0xd3, 0x4b, 
+                0xa9, 0x15, 
+                0xd4, 0x2b, 
+                0xaa, 0x55, 
+                0x55, 0xaa, 
+                0x2a, 0x54, 
+                0x15, 0xa8, 
+                0x0a, 0x50, 
+                0x05, 0xa0, 
+                0x02, 0x40, 
+                0x01, 0x80, 
+                0x00, 0x00,     
+            };
+            static const unsigned char PROGMEM F_Sweet[] = { 
+                0x00, 0x00, 
+                0x00, 0x00, 
+                0x00, 0x00, 
+                0x00, 0x00, 
+                0x80, 0x01, 
+                0xdf, 0xfb, 
+                0xa0, 0x05, 
+                0xa0, 0x05, 
+                0xf5, 0x55, 
+                0xaa, 0xaf, 
+                0xdf, 0xfb, 
+                0x80, 0x01, 
+                0x00, 0x00, 
+                0x00, 0x00, 
+                0x00, 0x00, 
+                0x00, 0x00, 
+            };
         }
     };
     namespace Character {
