@@ -53,16 +53,17 @@ void loop() {
     hungerSlider.Update(GAME.hunger.value);
     tiredSlider.Update(GAME.tired.value);
     dirtySlider.Update(GAME.dirty.value);
+    // Display.drawBitmap(0, 0, Sprites::Character::Shogo, 32, 32, BLACK);
 
     int t_int = GAME.GetIsAllZeroParametrs();
-    
+
     if (t_int == Settings::DEFAULT_STAGE_FULL_COUNT) 
         Display.drawBitmap(Settings::UI::DEFAULT_CHARACTER_X, Settings::UI::DEFAULT_CHARACTER_Y, Sprites::Character::Normal, 20, 30, BLACK);
     else if (t_int == Settings::DEFAULT_STAGE_MIDDLE_COUNT) 
         Display.drawBitmap(Settings::UI::DEFAULT_CHARACTER_X, Settings::UI::DEFAULT_CHARACTER_Y, Sprites::Character::Middle, 20, 30, BLACK);
     else
         Display.drawBitmap(Settings::UI::DEFAULT_CHARACTER_X, Settings::UI::DEFAULT_CHARACTER_Y, Sprites::Character::Bad, 20, 30, BLACK);
-    
+
     if (GAME.b_selectItem) {
         Display.print(String(GAME.m_selectedItem.name));
         Display.drawBitmap(Settings::UI::DEFAULT_ITEM_X, Settings::UI::DEFAULT_ITEM_Y, GAME.m_selectedItem.Sprite, 16, 16, BLACK);
@@ -100,5 +101,5 @@ void loop() {
     display.clearDisplay();
     */
 
-   Display.display();
+    Display.display();
 }
